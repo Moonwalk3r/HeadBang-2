@@ -5,9 +5,16 @@ box-sizing: border-box;
 width: 360px;
 margin: 0 auto;
 }
-.content-section_theme_dark {
-
+.content-section_theme_dark 
+{
+background-color: black;
+color: white;
 }
-.content-section_theme_bright {
-    
+.content-section_theme_bright 
+{
+background-color: yellow;
+color: black;
+}
+.header {
+    margin: 24 20 24 20;
 }
