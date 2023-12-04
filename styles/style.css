@@ -1,0 +1,13 @@
+@import url(reset.css);
+body
+.content-section {
+box-sizing: border-box;
+width: 360px;
+margin: 0 auto;
+}
+.content-section_theme_dark {
+
+}
+.content-section_theme_bright {
+    
+}
