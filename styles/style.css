@@ -1,20 +1,53 @@
-@import url(reset.css);
-body
+body {
+    margin: 0;
+    background-color: #1e1e1e;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    background-color: #1e1e1e;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ul,
+  ol,
+  blockquote {
+    margin: 0;
+    padding: 0;
+  }
 .content-section {
-box-sizing: border-box;
-width: 360px;
-margin: 0 auto;
+    box-sizing: border-box;
+    width: 360px;
+    min-width: 100px;
+    margin: auto;
 }
-.content-section_theme_dark 
-{
-background-color: black;
-color: white;
+.content-section_theme_dark {
+    color: #fff;
+    background-color: #131313;
 }
-.content-section_theme_bright 
-{
-background-color: yellow;
-color: black;
+.content-section_theme_bright {
+    color: #131313;
+    background-color: #fee42a;
 }
 .header {
-    margin: 24 20 24 20;
+padding: 24px 20px;
+}
+.cover {
+padding: 7px 24px 32px 20px;
+}
+.intro {
+padding: 0 20px 38px;
+}
+.reason {
+padding: 40px 20px;
+}
+.how-to {
+padding: 40px 20px 60px;
+}
+.footer {
+padding: 20px;
 }
