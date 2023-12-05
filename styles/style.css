@@ -193,5 +193,14 @@ padding: 40px 20px;
 padding: 40px 20px 60px;
 }
 .footer {
-padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #fee42a;
+}
+.footer__links {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
 }
